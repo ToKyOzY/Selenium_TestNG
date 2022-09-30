@@ -9,7 +9,7 @@ import java.time.Duration;
 public class Driver {
     static WebDriver driver;
     /*
-    Tstlerimizi calıtırdıgımızda her seferinde yeni driver oluşturdugu için her test methodu için yeni bir
+    Testlerimizi calıtırdıgımızda her seferinde yeni driver oluşturdugu için her test methodu için yeni bir
     pencere(driver) acıyor. eger driver'a bir deger atanmamışsa yani driver== null ise bir kere
     driver'ı çalıştır diyerek bir kere if içini çalıştıracak. Ve driver artık bir kere calıştıgı icin ve deger atandıgı
     icin null olmayacak ve direkt return edecek ve diger testlerimiz aynı pencere(driver) uzerinde çalışacak.
