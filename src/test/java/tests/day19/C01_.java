@@ -1,5 +1,18 @@
 package tests.day19;
 
-public class C01_ {
+import org.testng.annotations.Test;
+import utilities.ConfigReader;
+import utilities.Driver;
 
+public class C01_ {
+    @Test
+    public void test01() {
+        Driver obj=new Driver();
+        obj.getDriver().get(ConfigReader.getProperty("amznUrl"));
+        /*
+        SingletonPattern = tekli kullanım demektir.
+        Bir class'ın farklı classlardan obje oluşturarak kullanımını engellemektir.
+         */
+
+    }
 }
