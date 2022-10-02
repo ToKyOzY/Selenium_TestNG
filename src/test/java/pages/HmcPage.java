@@ -22,4 +22,21 @@ public class HmcPage {
 
     @FindBy(xpath = "//*[text()='Try again please']")
     public WebElement girisYapilamadi;
+
+    @FindBy(xpath = "//*[text()='Hotel Management']")
+    public WebElement hotelManagementButton;
+
+    @FindBy(xpath = "(//*[@class='icon-calendar'])[4]")
+    public WebElement roomReservationButton;
+
+    @FindBy(xpath = "//*[text()='Add Room Reservation ']")
+    public WebElement addRoomReservationButton;
+    @FindBy(xpath = "//*[@id='IDUser']")
+    public WebElement idUser;
+
+    @FindBy(xpath = "(//*[@class='modal-body'])[2]")
+    public WebElement successfully;
+    @FindBy(xpath = "//*[@class='btn btn-primary']")
+    public WebElement okButton;
+
 }

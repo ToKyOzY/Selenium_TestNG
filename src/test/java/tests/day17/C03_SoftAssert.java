@@ -32,7 +32,7 @@ public class C03_SoftAssert extends TestBaseBeforeMethodAfterMethod {
         softAssert.assertTrue(result.isDisplayed(),"sonuc WE goruntulenemedi");
         //6-arama sonucunun Nutella içerdigini test edin
         softAssert.assertTrue(result.getText().contains("Nutella"));
-        softAssert.assertAll();
+        //softAssert.assertAll();
         System.out.println("hata varsa burasi calismaz");
 
 

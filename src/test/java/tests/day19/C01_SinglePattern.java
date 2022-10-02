@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class C01_ {
+public class C01_SinglePattern {
     @Test
     public void test01() {
         Driver obj=new Driver();
