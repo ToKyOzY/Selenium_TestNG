@@ -17,7 +17,7 @@ public abstract class TestBaseBeforeMethodAfterMethod {
     protected Faker faker;
     @BeforeMethod
     //TestNG framework'unda before ve after notasyonları yerine beforeMethod ve afterMethod kullanılır
-    //JUnit calışma prensii JUnitteki before ve after ile aynıdır
+    //calışma prensibi JUnitteki before ve after ile aynıdır
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();

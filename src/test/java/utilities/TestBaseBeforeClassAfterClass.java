@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import java.time.Duration;
 
 public abstract class TestBaseBeforeClassAfterClass {
+
     protected WebDriver driver;
     // @BeforeClass ve @AfterClass notasyonlarını TestNG de kullanırken JUnit'teki gibi static yapmaya gerek yoktur
 

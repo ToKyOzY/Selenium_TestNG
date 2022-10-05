@@ -1,6 +1,6 @@
 package z_practice.homeworks;
 
-public class C02 {
+public class Q02 {
 
 //     * Navigate to  https://www.saucedemo.com/
 //     * Enter the username  as standard_user
