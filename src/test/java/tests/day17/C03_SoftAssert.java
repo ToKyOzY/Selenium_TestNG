@@ -9,7 +9,7 @@ import org.testng.asserts.SoftAssert;
 import utilities.TestBaseBeforeClassAfterClass;
 import utilities.TestBaseBeforeMethodAfterMethod;
 
-public class C03_SoftAssert extends TestBaseBeforeMethodAfterMethod {
+public class C03_HardAssert extends TestBaseBeforeMethodAfterMethod {
     @Test
     public void test01() {
         /*
