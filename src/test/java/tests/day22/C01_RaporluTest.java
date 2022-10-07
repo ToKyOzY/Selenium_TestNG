@@ -1,6 +1,5 @@
 package tests.day22;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BlueRantACarPage;
@@ -21,7 +20,7 @@ public class C01_RaporluTest extends TestBaseRapor {
     public void test01() {
         extentTest=extentReports.createTest("Pozitif Test", "Gecerli Kullanici adi ve password ile giris yapildi");
         // -https://www.bluerentalcars.com/ adresine git
-        Driver.getDriver().get(ConfigReader.getProperty("blrcrUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("blrcr_Url"));
         extentTest.info("lue RentaCar sitesine gidildi");
         //    -login butonuna bas
         BlueRantACarPage blueRantACarPage=new BlueRantACarPage();

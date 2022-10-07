@@ -14,7 +14,7 @@ public class C03_E2ETest {
     public void E2ETest() throws InterruptedException {
         //https://www.hotelmycamp.com adresine git.
         //Login butonuna tıklayın.
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         hmcPage.login.click();
         //Username textbox ve password metin kutularını locate edin ve asagidaki verileri

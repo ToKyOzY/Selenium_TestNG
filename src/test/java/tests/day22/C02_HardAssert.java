@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.Driver;
 import utilities.TestBaseBeforeMethodAfterMethod;
 import utilities.TestBaseCross;
 
@@ -21,6 +22,8 @@ public class C02_HardAssert extends TestBaseCross {
         //5-arama yapıldıgını test edin
         Assert.assertTrue(driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']")).isDisplayed());
         //6-arama sonucunun Nutella içerdigini test edin
+
+        Driver.closeDriver();
 
     }
 }

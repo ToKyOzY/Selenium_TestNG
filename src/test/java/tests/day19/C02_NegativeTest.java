@@ -14,7 +14,7 @@ public class C02_NegativeTest {
         //1 ) Bir Class olustur : NegativeTest
         //2) Bir test method olustur NegativeLoginTest()
         // https://www.hotelmycamp.com/ adresine git
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         //login butonuna bas
         hmcPage.login.click();

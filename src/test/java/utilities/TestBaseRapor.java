@@ -35,7 +35,7 @@ import java.util.Date;
             // İstediğiniz bilgileri buraya ekeyebiliyorsunuz.
             extentReports.setSystemInfo("Environment","QA");
             extentReports.setSystemInfo("Browser", ConfigReader.getProperty("browser")); // chrome, firefox
-            extentReports.setSystemInfo("Automation Engineer", "Erol");
+            extentReports.setSystemInfo("Automation Engineer", "Zeynep");
             extentHtmlReporter.config().setDocumentTitle("Rapor");
             extentHtmlReporter.config().setReportName("TestNG Reports");
         }

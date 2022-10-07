@@ -1,10 +1,10 @@
-package z_practice.repitions;
+package z_practice.practiceWithHoca;
 
 import org.testng.annotations.Test;
 import pages.HerokuPage;
 import utilities.Driver;
 
-public class PPPP {
+public class Practice_08 {
     //Go to https://testpages.herokuapp.com/styled/events/javascript-events.html
     //Click all the buttons and verify they are all clicked
 

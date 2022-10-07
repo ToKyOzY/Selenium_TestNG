@@ -14,7 +14,7 @@ public class C01_SmokePozitiveTest {
         //Bir Class olustur : PositiveTest
         //2) Bir test method olustur positiveLoginTest()
         // https://www.hotelmycamp.com/ adresine git  login butonuna bas
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         /*Page class'ındaki locate'lerimize ulaşabilmek için page
         class'ımızdan bir obje oluşturarak oluşturmuş oldugumuz obje ile

@@ -12,7 +12,7 @@ public class C02_SmokeNegativeTest {
     @Test
     public void yanlisKullanici() {// 1. Senaryo => Yanlış kullanıcı dogru sifre
         // https://www.hotelmycamp.com/ adresine git
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         //login butonuna bas
         hmcPage.login.click();
@@ -29,7 +29,7 @@ public class C02_SmokeNegativeTest {
     @Test
     public void yanlisSifre() {//2. Senaryo => dogru kullanıcı yanlış şifre
         // https://www.hotelmycamp.com/ adresine git  login butonuna bas
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         /*Page class'ındaki locate'lerimize ulaşabilmek için page
         class'ımızdan bir obje oluşturarak oluşturmuş oldugumuz obje ile
@@ -50,7 +50,7 @@ public class C02_SmokeNegativeTest {
     @Test
     public void yanlisKullaniciSifre() { //3. Senaryo => Yanlış kullanıcı, Yanlış şifre
         // https://www.hotelmycamp.com/ adresine git  login butonuna bas
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("hmc_Url"));
         HmcPage hmcPage=new HmcPage();
         /*Page class'ındaki locate'lerimize ulaşabilmek için page
         class'ımızdan bir obje oluşturarak oluşturmuş oldugumuz obje ile

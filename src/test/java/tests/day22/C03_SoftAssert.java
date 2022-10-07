@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import utilities.Driver;
 import utilities.TestBaseBeforeMethodAfterMethod;
 import utilities.TestBaseCross;
 
@@ -28,6 +29,8 @@ public class C03_SoftAssert extends TestBaseCross {
         softAssert.assertTrue(result.getText().contains("Nutella"));
         //softAssert.assertAll();
         System.out.println("hata varsa burasi calismaz");
+
+        Driver.closeDriver();
 
 
     }
