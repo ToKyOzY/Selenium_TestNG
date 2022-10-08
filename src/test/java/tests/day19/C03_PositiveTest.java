@@ -10,7 +10,7 @@ import utilities.Driver;
 
 public class C03_PositiveTest {
     @Test
-    public void test01(){
+    public void positiveTest(){
         //Bir Class olustur : PositiveTest
         //2) Bir test method olustur positiveLoginTest()
         // https://www.hotelmycamp.com/ adresine git  login butonuna bas
@@ -29,7 +29,7 @@ public class C03_PositiveTest {
                 .sendKeys(Keys.ENTER).perform();
         //Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
         Assert.assertTrue(hmcPage.girisYapildi.isDisplayed());
-
+        Driver.closeDriver();
 
 
     }

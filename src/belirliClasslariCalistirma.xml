@@ -22,10 +22,5 @@ Sonrasında suite tag'ı ile başlayıp hangi testi çalıştıracaksak ona gör
         </classes>
         
     </test>
-    
-    
-    
-    
-    
-    
+
 </suite>

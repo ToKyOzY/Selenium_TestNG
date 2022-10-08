@@ -7,6 +7,7 @@
             <package name="tests.day18"/>
         </packages>
     </test>
+
     <test name="baska test">
         <classes>
             <class name="tests.day19.C03_PositiveTest"/>

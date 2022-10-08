@@ -15,7 +15,7 @@ public abstract class TestBaseBeforeMethodAfterMethod {
     protected WebDriver driver;
     protected Actions actions;
     protected Faker faker;
-    @BeforeMethod
+    @BeforeMethod (groups = "gp1")
     //TestNG framework'unda before ve after notasyonları yerine beforeMethod ve afterMethod kullanılır
     //calışma prensibi JUnitteki before ve after ile aynıdır
     public void setUp() {
@@ -26,7 +26,7 @@ public abstract class TestBaseBeforeMethodAfterMethod {
         actions=new Actions(driver);
         faker=new Faker();
     }
-    @AfterMethod
+    @AfterMethod (groups = "gp1")
     public void tearDown() {
         driver.quit();
     }

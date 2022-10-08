@@ -25,5 +25,6 @@ public class C02_NegativeTest {
                 .sendKeys(Keys.ENTER).perform();
         //Degerleri girildiginde sayfaya girilemedigini test et
         Assert.assertTrue(hmcPage.girisYapilamadi.isDisplayed());
+
     }
 }

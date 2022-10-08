@@ -26,7 +26,7 @@ public class C03_SoftAssert extends TestBaseCross {
         WebElement result=driver.findElement(By.xpath("//*[@class='a-section a-spacing-small a-spacing-top-small']"));
         softAssert.assertTrue(result.isDisplayed(),"sonuc WE goruntulenemedi");
         //6-arama sonucunun Nutella içerdigini test edin
-        softAssert.assertTrue(result.getText().contains("Nutella"));
+        softAssert.assertTrue(result.getText().contains("Nutella"),"Nutella icermiyor");
         //softAssert.assertAll();
         System.out.println("hata varsa burasi calismaz");
 
