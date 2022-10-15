@@ -16,11 +16,12 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.myfirstproject.tests" level="trace" additivity="false">
+        <Logger name="tests.log4J.Log4jTest2" level="trace" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="file"/>
         </Logger>
-        <Root level="trace">
+        <!-- ROOT LEVEL = tum sınıflara otamaatik uygulanan ayar-->
+        <Root level="error">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="file"/>
         </Root>
