@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 public abstract class TestBaseBeforeMethodAfterMethod {
+
     protected WebDriver driver;
     protected Actions actions;
     protected Faker faker;

@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Batch81TestNG" />
+        <module name="com.Batch81TestNG" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Selenium_TestNG_" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,7 @@ package tests.day16;
 import org.testng.annotations.Test;
 import utilities.TestBaseBeforeMethodAfterMethod;
 
-public class C01_BeforeMethodAfterMethod extends TestBaseBeforeMethodAfterMethod {
+public class C01_BeforeMethodAfterMethod extends TestBaseBeforeMethodAfterMethod{
 
     @Test
     public void amazonTest1() {
